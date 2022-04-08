@@ -1,0 +1,43 @@
+Notes on applorng.pov              By George W. Hart             File: applorng.txt
+
+I started to explore raytracing because I enjoy making sculptural constructions of
+various sorts and I often conceive of structures too complex for me to build.  I 
+wanted a technique to at least make an image of constructions I visualize.  For 
+some examples, see my www page <URL:http://www.li.net/~george/pavilion.html>.
+I have been playing with POVRAY for just over a month now.
+
+This apples and oranges construction is a sort of table centerpiece of 12 apples
+and 20 oranges bound together with 60 forks.  The apples are placed stem-outward
+at the corners of an icosahedron (20 equilateral triangles).  The oranges are
+placed "belly-button"-outward at the corners of a dodecahedron (12 pentagons).
+The forks follow the edges of a rhombic triacontahedron (30 rhombic sides, 5 acute
+corners meeting at each apple, 3 obtuse corners meeting at each orange) but are 
+displaced slightly for visual interest.  Three forks have their tines impaling
+each orange, spiraling in.  Five forks have their handle end embedded in each
+apple, spiraling in the opposite rotation.  I conceived of this in a flash when I 
+saw the contest topic was food, probably because the metaphor of apples and oranges 
+is central to my work.  (See <URL:http://www.ctr.columbia.edu/~hart/multanal.html>.)
+The smooth dull finish of the apples versus the shiny bumpy finish of the oranges is
+to emphasize the metaphor of contrast, but I am not happy with the textures.
+
+The gingham tablecloth (a plane with a hand-drawn image-map) seemed like the obvious 
+variation on the ubiquitous tile floor.  The blue sky provides orientation and is 
+placed symmetrically to the table to emphasize the symmetry of the construction.  
+A square picture format does also. The oranges are bumpy spheres with some disks
+for the belly-buttons.  The apples are quartics constructed as a "soft" cardiod
+[r=1.2+sin(theta)] rotated about its axis of symmetry, with a piecs of torus for a
+stem.  There is only one bump into each apple.  (A two bumper would require a sixth
+order polynomial, and I had enough trouble typing in all the zeros you don't need in 
+the 4th order poly.)   So the bump is always placed towards the viewer, and is the
+receptacle for the stem in the near apples, and is the "anus" (maybe a botanist out
+there can tell me the correct term) of the far apples.
+
+The forks are the intersection of a height-field (to give the tines and handle
+outline shape) and a quartic shape (to give a smooth forward bend for the tines and
+reverse bend for the handle).  The fruit and forks were positioned by a simple 
+Visual Basic program I wrote which places objects in space into polyhedral and 
+geodesic arrangements.
+
+George W. Hart
+george@li.net
+April 1995
