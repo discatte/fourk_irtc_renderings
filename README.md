@@ -1,5 +1,5 @@
 # fourk_raytraced_renderings
-4k resolution renderings of irtc raytracing competition and other povray and bryce scenes
+4k resolution renderings of irtc raytracing competition and other povray and bryce scenes. Artist info generally at http://www.irtc.org/old/
 
 These are the 4k lossless versions of 4k uploads to @raytracedvibes on twitter since they get converted to jpg when posting.
 
